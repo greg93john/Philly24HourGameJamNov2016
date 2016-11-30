@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceInScaleGameJam.CSharp.Plugins", "DifferenceInScaleGameJam.CSharp.Plugins.csproj", "{2C272CFF-D17A-52F4-C433-3FD7AFB5570B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceInScaleGameJam.CSharp", "DifferenceInScaleGameJam.CSharp.csproj", "{74257AE1-50AF-74BA-183B-0076669E5C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceInScaleGameJam.CSharp.Editor", "DifferenceInScaleGameJam.CSharp.Editor.csproj", "{509CCE41-BD34-23D2-A5D2-3A82B117C8DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C272CFF-D17A-52F4-C433-3FD7AFB5570B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C272CFF-D17A-52F4-C433-3FD7AFB5570B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C272CFF-D17A-52F4-C433-3FD7AFB5570B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C272CFF-D17A-52F4-C433-3FD7AFB5570B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74257AE1-50AF-74BA-183B-0076669E5C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74257AE1-50AF-74BA-183B-0076669E5C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74257AE1-50AF-74BA-183B-0076669E5C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74257AE1-50AF-74BA-183B-0076669E5C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509CCE41-BD34-23D2-A5D2-3A82B117C8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509CCE41-BD34-23D2-A5D2-3A82B117C8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509CCE41-BD34-23D2-A5D2-3A82B117C8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509CCE41-BD34-23D2-A5D2-3A82B117C8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

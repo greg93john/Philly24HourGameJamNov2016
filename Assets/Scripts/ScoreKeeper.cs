@@ -24,7 +24,7 @@ public class ScoreKeeper : MonoBehaviour {
 
         if (playing) {
             scoreDisplay.text = "Boulders: " + scoreAmount.ToString();
-        }
+        } else { CheckHighScore(); }
     }
 
     public void AddToScore(int score) {
@@ -33,6 +33,12 @@ public class ScoreKeeper : MonoBehaviour {
 
     public static int GetScore() {
         return scoreAmount;
+    }
+
+    public void CheckHighScore() {
+        if(scoreAmount > highScore) {
+            PlayerPrefsManager.SetHighScore(scoreAmount);
+        }
     }
 
     private void InitializeVariables() {

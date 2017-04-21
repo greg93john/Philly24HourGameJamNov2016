@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour {
 
     public void GoToGameOverScreen() {
         Debug.Log("Going to GameOverScreen");
+        CheckEndingScore();
         LevelManager levelManager = GameObject.FindObjectOfType<LevelManager>().GetComponent<LevelManager>();
         levelManager.LoadNextLevelDelay(2f);
     }
@@ -74,6 +75,11 @@ public class PlayerController : MonoBehaviour {
 
     void HandleAnimations (float horInput, bool playState) {
         myAnimator.SetFloat("HorSpeed", Mathf.Abs(horInput));
+    }
+
+    void CheckEndingScore() {
+        ScoreKeeper scorekeep = GameObject.FindObjectOfType<ScoreKeeper>();
+        scorekeep.CheckHighScore();
     }
 
     // private variable initializer
